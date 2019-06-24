@@ -1,0 +1,46 @@
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: 'Arvo', serif;
+}
+
+/* HEADER */
+
+header {
+	display: flex;
+	color: #ff9234;
+}
+
+header nav {
+  width: 1000px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin: 65px;
+  font-size: 16px;
+  color: #ff9234;
+  text-decoration: none;
+}
+
+/* MAIN CONTENT */
+
+.main-content .top-img {
+	margin-top: 50px;
+	width: 1000px;
+	height: 600px;
+}
+
+.main-content .top-content {
+	display: flex;
+}
+
+
+
+
+
+
+
+
