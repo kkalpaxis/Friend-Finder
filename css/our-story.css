@@ -3,6 +3,17 @@
 	width: 1000px;
 	margin: 0 auto;
 	font-family: 'Arvo', serif;
+	color: #373a6d;
+}
+
+.container .FF {
+	width: 175px;
+	height: 65px;
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	  
 }
 
 /* HEADER */
@@ -14,14 +25,14 @@ header {
 header nav {
   width: 1000px;
   vertical-align: top;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 header nav a {
   margin: 65px;
   font-size: 16px;
-  color: #373a6d;
   text-decoration: none;
+  color: #373a6d;
 }
 
 /* MAIN CONTENT */
@@ -29,7 +40,6 @@ header nav a {
 .main-content .text-content {
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #373a6d;
 }
 .main-content .top-img {
 	margin-top: 50px;
@@ -58,16 +68,26 @@ header nav a {
 button {
 	color: white;
 	background-color: #6fc2d0;
-    width: 100px;
+    width: 120px;
     height: 12%;
     border-radius: 10px;
     text-align: center;
 	font-size: 18px;
+	font-family: 'Arvo', serif;
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
 }
 
 .main-content .bottom-content {
 	display: flex;
 	margin-bottom: 50px;
+}
+
+.main-content .bottom-content .text-content {
+	border: 2px solid;
+	border-radius: 25px;
+	padding: 10px;
 }
 
 span {
@@ -84,14 +104,28 @@ span {
 	flex-direction: column;
 	width: 600px;
 	margin-left: 200px;
+	margin-bottom: 50px;
 }
 
 .main-content .infographic-img {
+	margin-top: 25px;
 	width: 600px;
 	height: 600px;
+	padding-bottom: 25px;
+	border-bottom: 2px dashed;
 }
 
 /* FOOTER */
+footer {
+	margin-top: -25px;
+	display: flex;
+	color: #373a6d;
+	font-family: 'Arvo', serif;
+	width: 1000px;
+	margin-left: 580px;
+	margin-bottom: 50px;
+}
+
 
   
 
