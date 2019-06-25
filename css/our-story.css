@@ -6,9 +6,7 @@
 }
 
 /* HEADER */
-.logo .FF {
 
-}
 header {
 	display: flex;
 }
@@ -69,6 +67,7 @@ button {
 
 .main-content .bottom-content {
 	display: flex;
+	margin-bottom: 50px;
 }
 
 span {
@@ -80,10 +79,20 @@ span {
 	margin-right: 25px;
 }
 
+.main-content .infographic {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin-left: 200px;
+}
+
 .main-content .infographic-img {
 	width: 600px;
 	height: 600px;
 }
+
+/* FOOTER */
+
   
 
 
