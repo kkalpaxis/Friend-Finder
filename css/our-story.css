@@ -66,6 +66,10 @@ header nav a {
 	margin-bottom: 50px;
 }
 
+.main-content .middle-content a {
+	text-decoration: none;
+}
+
 button {
 	color: white;
 	background-color: #6fc2d0;
